@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.navbar h1 a {
+  color: white;
+}
+
+.navbar button {
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+}
+
+.navbar button a {
+  color: #6082b6;
+  font-size: medium;
+  font-weight: 500;
+}
+

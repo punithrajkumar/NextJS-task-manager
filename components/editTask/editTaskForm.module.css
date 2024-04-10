@@ -1,0 +1,29 @@
+.editTask {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.editTask input {
+  width: 50%;
+  padding: 0.5rem 1.5rem;
+  outline: none;
+}
+
+.editTask button {
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+}
+
+.editTask button a {
+  color: #6082b6;
+  font-size: medium;
+  font-weight: 500;
+}

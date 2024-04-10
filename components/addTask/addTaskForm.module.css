@@ -1,0 +1,29 @@
+.addTask {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.addTask input {
+  width: 50%;
+  padding: 0.5rem 1.5rem;
+  outline: none;
+}
+
+.addTask button {
+  cursor: pointer;
+  padding: 0.25rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+}
+
+.addTask button a {
+  color: #6082b6;
+  font-size: medium;
+  font-weight: 500;
+}

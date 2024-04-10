@@ -1,0 +1,51 @@
+.taskList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+  color: #6082b6;
+  border-radius: 10px;
+  padding: 1rem;
+  gap: 1rem;
+}
+.taskListLeft,
+.taskListRight {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.taskListLeft {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.taskListLeftSecond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.taskListRight {
+  justify-content: space-evenly;
+}
+
+.taskListRight button {
+  background-color: #6082b6;
+  color: white;
+  cursor: pointer;
+  padding: 0.2rem 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.dueDateWarning {
+  color: red;
+}
